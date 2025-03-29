@@ -1,0 +1,57 @@
+/* h1 {
+    color: chartreuse;
+} */
+ /* Selectores basicos */
+ /* Selector por nombre de etiqueta */
+ /* span{
+    text-align: center; 
+    font-size: 50px; 
+    display: block; /* cambiando el comportamiento */
+    
+    /* #span2{
+        color: blue;
+    }
+    .color-rojo{
+        background-color: crimson;
+    }
+    .letra-cursiva{
+        font-style: italic;
+        font-weight: bold;
+    } */
+
+    /*Selectores por gerarquia*/
+    /*Selector hijo directo (>)*/
+    /* div > p{
+        color: red;
+        font-size: 25px;
+    }
+    div > span > p {
+        background-color: greenyellow;
+        /*Selector hijo indirecto ( )*/
+    
+    /* div p{
+        color: red;
+        font-size: 30px;
+    } */
+
+    /*Selectores abaycenes o hermanos*/
+    /* selector primer hermano (+)*/
+    /* div + p + p{
+        color: rebeccapurple;
+        font-size: 30px; */
+        /*selector todos los hermanos (~)*/
+
+    /* div ~p{
+        color: aqua;
+        font-size: 30px;
+    } */
+    /*selector todo (*)*/
+    /* forma 1 sselecccionar todo */
+    /* *{
+        background-color: blueviolet;
+    }
+    /* forma 2 seleccionar todas las etiquetas dentro de otras/* */
+    
+    div *{
+        color: blue;
+    }
